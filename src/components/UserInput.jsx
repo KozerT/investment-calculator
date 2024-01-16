@@ -7,6 +7,7 @@ const UserInput = ({ onChangeInput, userInput }) => {
         <p>
           <label htmlFor="">Initial Investment</label>
           <input
+            className="input-group__input"
             type="number"
             required
             value={userInput.initialInvestment}
@@ -18,6 +19,7 @@ const UserInput = ({ onChangeInput, userInput }) => {
         <p>
           <label htmlFor="">Annual Investment</label>
           <input
+            className="input-group__input"
             type="number"
             required
             value={userInput.annualInvestment}
@@ -33,6 +35,7 @@ const UserInput = ({ onChangeInput, userInput }) => {
           <label htmlFor="">Expected Return</label>
           <input
             type="number"
+            className="input-group__input"
             required
             value={userInput.expectedReturn}
             onChange={(event) => {
@@ -43,6 +46,7 @@ const UserInput = ({ onChangeInput, userInput }) => {
         <p>
           <label htmlFor="">Duration</label>
           <input
+            className="input-group__input"
             type="number"
             required
             value={userInput.duration}
