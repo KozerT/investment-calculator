@@ -44,6 +44,9 @@ body {
   background: linear-gradient(180deg, #307e6c, #2b996d);
 }
 
+#user-input:active {
+}
+
 .input-group {
   display: flex;
   justify-content: space-evenly;
